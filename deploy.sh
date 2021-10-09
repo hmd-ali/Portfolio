@@ -19,10 +19,10 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io
 
 git remote add origin https://github.com/hmd-ali/hmd-ali.github.io.git
-git branch -M master
-git push -u origin master
+git branch -M main
+git push -u origin main
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
+# if you aresa deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
 
 cd -

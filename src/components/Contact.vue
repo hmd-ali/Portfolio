@@ -143,6 +143,7 @@
     .form-container form .form-group textarea{
         padding: 1rem 2rem;
         border: 2px solid var(--accent-1);
+        border-radius: 1rem;
         margin: 1rem;
         width: 60rem;
         height: 30rem;
