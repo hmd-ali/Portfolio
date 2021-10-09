@@ -20,6 +20,7 @@ git commit -m 'deploy'
 
 git remote add origin https://github.com/hmd-ali/hmd-ali.github.io.git
 git branch -M main
+git pull origin main
 git push -u origin main
 
 # if you aresa deploying to https://<USERNAME>.github.io/<REPO>
